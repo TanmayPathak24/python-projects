@@ -13,4 +13,4 @@ class Words:
             for line in file:
                 Words.workList.append(line)
 
-        return Words.workList[randint(0, (len(Words.workList)))]
+        return Words.workList[randint(0, (len(Words.workList)))].strip()
